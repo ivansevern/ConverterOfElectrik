@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainActivity">
+
+
+    <activity
+        android:id="@+id/MainActivity"
+        android:name="com.example.ConverterOfElectric.MainActivity"
+        android:label="@string/main_activity_label"
+        tools:layout="@layout/activity_main">
+
+
+
+    </activity>
+
+
+    <activity
+        android:id="@+id/PowerActivity"
+        android:name="com.example.ConverterOfElectric.PowerActivity"
+        android:label="@string/power_activity_label"
+        tools:layout="@layout/activity_power" >
+    </activity>
+    <action
+        android:id="@+id/mainActivity"
+        app:destination="@id/PowerActivity" />
+    <action
+        android:id="@+id/powerActivity3"
+        app:destination="@id/MainActivity" />
+</navigation>

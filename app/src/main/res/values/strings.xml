@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConverterOfElectrik</string>
+    <string name="main_activity_label">Main Activity</string>
+    <string name="power_activity_label">Power Activity</string>
+    <string name="amper_activity_label">Amper Activity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="power">Расчёт мощности</string>
+    <string name="amper">Расчёт силы тока</string>
+    <string name="back">Назад</string>
+    <string name="calc">Расчёт</string>
+    <string name="reset">Сброс</string>
+    <string name="edit_cos">Введите cos</string>
+    <string name="edit_amper">Введите Амперы</string>
+    <string name="edit_p">Введите Ватт</string>
+    <string name="edit_volt">Введите Вольты</string>
+    <string name="text_p">Ватт</string>
+    <string name="text_a">Ампер</string>
+</resources>
